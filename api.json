@@ -1,0 +1,44 @@
+{
+  "usuario": [
+    {
+      "id": "guilhermelima18@hotmail.com",
+      "nome": "Guilherme Lima",
+      "senha": "123",
+      "email": "guilhermelima18@hotmail.com",
+      "rua": "Rua Severino Bachiega",
+      "cep": "17205300",
+      "numero": "63",
+      "cidade": "Jaú",
+      "estado": "SP"
+    }
+  ],
+  "produto": [
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "guilhermelima18@hotmail.com",
+      "preco": 4999,
+      "vendido": false,
+      "descricao": "Esse é um novo notebook.",
+      "fotos": []
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "guilhermelima18@hotmail.com",
+      "preco": 2500,
+      "vendido": false,
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": []
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "guilhermelima18@hotmail.com",
+      "preco": 1200,
+      "vendido": false,
+      "descricao": "Esse é um novo tablet.",
+      "fotos": []
+    }
+  ]
+}

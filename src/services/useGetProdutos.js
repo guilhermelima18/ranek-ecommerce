@@ -3,7 +3,9 @@ import { api } from "./api";
 export function useGetProdutos() {
   const getProdutos = async (urlParams) => {
     try {
-      const response = await api.get(`/produto/?_limit=9${urlParams}`);
+      const response = await api.get(
+        `/produto/?_limit=${urlParams.perPage}${urlParams.queryUrl}`
+      );
 
       return response;
     } catch (error) {

@@ -6,7 +6,11 @@
       <router-link to="/">
         <img class="w-20" src="../assets/ranek.svg" alt="Ranek" />
       </router-link>
-      <router-link class="text-zinc-500" to="/login">
+
+      <router-link v-if="$store.state.login" class="text-zinc-500" to="/login">
+        <Button :buttonText="getNameUser" />
+      </router-link>
+      <router-link v-else class="text-zinc-500" to="/login">
         <Button buttonText="Vender / Login" />
       </router-link>
     </nav>
@@ -20,6 +24,11 @@ export default {
   name: "Header",
   components: {
     Button,
+  },
+  computed: {
+    getNameUser() {
+      return this.$store.state.user.nome.replace(/ .*/, "");
+    },
   },
 };
 </script>

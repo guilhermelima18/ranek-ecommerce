@@ -10,6 +10,17 @@
       "numero": "63",
       "cidade": "Jaú",
       "estado": "SP"
+    },
+    {
+      "id": "guilherme.lima1996@hotmail.com",
+      "nome": "Guilherme Freitas",
+      "senha": "123",
+      "email": "guilherme.lima1996@hotmail.com",
+      "rua": "Rua Severino Bachiega",
+      "cep": "17205300",
+      "numero": "63",
+      "cidade": "Jaú",
+      "estado": "SP"
     }
   ],
   "produto": [

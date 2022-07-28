@@ -13,7 +13,17 @@ export function useGetProdutos() {
     }
   };
 
+  const getProduto = async (productId) => {
+    try {
+      const response = await api.get(`/produto/${productId}`);
+      return response;
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   return {
     getProdutos,
+    getProduto,
   };
 }
